@@ -1,0 +1,18 @@
+head { 
+    background-color: grey; font-size: 20px;
+}
+body {
+    font-family: sans-serif;
+background-color: black;}
+
+.container {
+    width: 80%; 
+    height:200px; 
+border: solid black; }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;}

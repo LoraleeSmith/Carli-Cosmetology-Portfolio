@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Contact</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
+        style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+        <h3 class="w3-padding-64 w3-center">Hair by Carli</h3>
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Hair Portfolio</a>
+        <a href="carli.html" onclick="w3_close()" class="w3-bar-item w3-button">Meet the Stylist</a>
+        <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Booking Info</a>
+    </nav>
+
+    <div class="container">
+        <div class="contact">
+            <h4><b>Contact Me</b></h4>
+            <p>Want to get your hair done by me? Need makeup done for an event? Maybe a wig to change up your look
+                without damaging your actual hair?</p>
+            <form action="/action_page.php" target="_blank">
+                <div class="section">
+                    <label>Name</label>
+                    <input class="input" type="text" name="Name" required>
+                </div>
+                <div class="section">
+                    <label>Email</label>
+                    <input class="input" type="text" name="Email" required>
+                </div>
+                <div class="section">
+                    <label>Message</label>
+                    <input class="input" type="text" name="Message" required>
+                </div>
+                <button id="button" type="submit">Send!</button>
+            </form>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                Thank you!
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+        <div class=links>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="instagram.com/hair_and_makeup_byCarli" class="fa fa-instagram"></a>
+        </div>
+    </div>
+</body>
+
+</html>
